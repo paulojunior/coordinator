@@ -13,6 +13,11 @@
 		2EB6A8C226E1610A0032669F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6A8C026E1610A0032669F /* Main.storyboard */; };
 		2EB6A8C426E1610D0032669F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6A8C326E1610D0032669F /* Assets.xcassets */; };
 		2EB6A8C726E1610D0032669F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6A8C526E1610D0032669F /* LaunchScreen.storyboard */; };
+		2EB6A8D126E162360032669F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6A8D026E162360032669F /* Coordinator.swift */; };
+		2EB6A8D326E162550032669F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6A8D226E162550032669F /* Storyboard.swift */; };
+		2EB6A8D526E1630C0032669F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6A8D426E1630C0032669F /* MainCoordinator.swift */; };
+		2EB6A8D726E16CE00032669F /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6A8D626E16CE00032669F /* BuyViewController.swift */; };
+		2EB6A8D926E16CF00032669F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6A8D826E16CF00032669F /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2EB6A8C326E1610D0032669F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB6A8C626E1610D0032669F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB6A8C826E1610D0032669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB6A8D026E162360032669F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2EB6A8D226E162550032669F /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		2EB6A8D426E1630C0032669F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		2EB6A8D626E16CE00032669F /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		2EB6A8D826E16CF00032669F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				2EB6A8C326E1610D0032669F /* Assets.xcassets */,
 				2EB6A8C526E1610D0032669F /* LaunchScreen.storyboard */,
 				2EB6A8C826E1610D0032669F /* Info.plist */,
+				2EB6A8D026E162360032669F /* Coordinator.swift */,
+				2EB6A8D226E162550032669F /* Storyboard.swift */,
+				2EB6A8D426E1630C0032669F /* MainCoordinator.swift */,
+				2EB6A8D626E16CE00032669F /* BuyViewController.swift */,
+				2EB6A8D826E16CF00032669F /* CreateAccountViewController.swift */,
 			);
 			path = CoordinatorsTest;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB6A8D126E162360032669F /* Coordinator.swift in Sources */,
+				2EB6A8D526E1630C0032669F /* MainCoordinator.swift in Sources */,
+				2EB6A8D326E162550032669F /* Storyboard.swift in Sources */,
 				2EB6A8BF26E1610A0032669F /* ViewController.swift in Sources */,
+				2EB6A8D926E16CF00032669F /* CreateAccountViewController.swift in Sources */,
 				2EB6A8BB26E1610A0032669F /* AppDelegate.swift in Sources */,
+				2EB6A8D726E16CE00032669F /* BuyViewController.swift in Sources */,
 				2EB6A8BD26E1610A0032669F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
